@@ -1,0 +1,43 @@
+.page-wrapper {
+    padding-top: 72px;
+    transition: all 0.3s ease-in-out;
+}
+html{
+    overflow-x: hidden;
+}
+[dir="ltr"] [data-sidebar-type="mini-sidebar"] .page-wrapper{
+    margin-left: 65px;
+}
+[dir="rtl"] [data-sidebar-type="mini-sidebar"] .page-wrapper{
+    margin-right: 65px;
+}
+.btn-custom-dark {
+    background-color: rgba(29, 34, 40, .25);
+    color: #fff;
+}
+/* Apex chart */
+
+.sidebar-dropdown-trigger span{
+    width: 40px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.left-chat-content{
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        padding: 15px 20px;
+        border-top-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+}
+:is([dir=rtl]) select:not([size]) {
+    background-position: left 0.75rem center;
+    padding-right: 0.75rem;
+    padding-left: 2.5rem !important;
+}
+@media (max-width: 1024px){
+    .page-wrapper {
+        margin-left: 0px;
+    }
+}
+
